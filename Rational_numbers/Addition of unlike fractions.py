@@ -1,21 +1,15 @@
-def fraction(variable1):
-    fraction=variable1.split("/")
-    return(fraction)
-
-def lcm(a,b):
-    for i in range(max(a, b), 1 + (a * b)):
-         if i % a == i % b == 0:
-             return i
+import common
+         
 number1=input("Write the 1st fraction:")
 number2=input("Write the 2nd fraction:")
 
-den_1=int(fraction(number1)[1])
-den_2=int(fraction(number2)[1])
+den_1=int(common.fraction(number1)[1])
+den_2=int(common.fraction(number2)[1])
 
-num_1=int(fraction(number1)[0])
-num_2=int(fraction(number2)[0])
+num_1=int(common.fraction(number1)[0])
+num_2=int(common.fraction(number2)[0])
 
-lcm_no=int(lcm(den_1,den_2))
+lcm_no=int(common.lcm(den_1,den_2))
 
 obt_no_1=int(lcm_no)/int(den_1)
 obt_no_2=int(lcm_no)/int(den_2)
