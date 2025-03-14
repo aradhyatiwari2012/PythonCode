@@ -1,0 +1,10 @@
+Operator Precedence:
+1) Parentheses: ()
+2) Exponentiation: ** (Python)
+3) Unary plus, minus: +x, -x
+4) Multiplication, Division, Modulus: *, /, %
+5) Addition, Subtraction: +, -
+6) Relational Operators: <, >, <=, >=
+7) Equality Operators: ==, !=
+8) Logical AND: && (Java, C++) / and (Python)
+9) Logical OR: || (Java, C++) / or (Python)

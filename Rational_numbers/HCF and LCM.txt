@@ -1,0 +1,11 @@
+HCF AND LCM
+
+Property 1: C.F.(A,B) x L.C.M.(A,B) = A x B
+
+Property 2: HCF of two the numbers = Product of the two numbers/LCM of the two numbers
+
+Property 3: LCM of two the  numbers= Product of the two numbers/HCF of the two numbers
+
+Property 4: The HCF of any two or more numbers can never be bigger than any of the numbers given.
+
+Property 5: The LCM of any two or more numbers is always greater than one of the issued numbers.
