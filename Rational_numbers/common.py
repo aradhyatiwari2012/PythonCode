@@ -5,8 +5,6 @@ def hcf(a,b):
              
 
 
-       
-
 def lcm(a,b):
     for i in range(max(a, b), 1 + (a * b)):
          if i % a == i % b == 0:
