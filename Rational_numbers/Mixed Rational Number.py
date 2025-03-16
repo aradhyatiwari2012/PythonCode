@@ -1,13 +1,13 @@
-def fraction(variable1):
-    fraction=fraction.split("/ ")
-    return (fraction)
+numb_1=input("Enter a mixed fraction:")
 
-numb_1=input("Write a mixed fraction:")
+array_a=numb_1.split(" ")
+whole=array_a[0]
+fraction=array_a[1]
 
-whole_a=int(fraction(numb_1)[0])
-num_b=int(fraction(numb_1)[1])
-den_c=int(fraction(numb_1)[2])
+array_b=fraction.split("/")
+num=array_b[0]
+den=array_b[1]
 
-imp_frac=int(whole_a)*int(den_c)+int(num_b)
-dec_num=int(imp_frac)/int(den_c)
-print("The result is:",imp_frac,"/",den_c)
+imp_frac=int(whole)*int(den)+int(num)
+dec=int(imp_frac)/int(den)
+print("The improper fraction:",imp_frac,"/",den,"or",dec)
