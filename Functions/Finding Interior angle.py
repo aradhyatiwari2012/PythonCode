@@ -1,7 +1,8 @@
 def int_ang(n):
-    var_1=(int(n)-2)*180/int(n)
-    var_2int(var_1)/120
-    return (var_2)
+    var_1=(n-2)*180// n
 
-num=input("Enter the no. of sides:")
-int_ang(num)
+    return var_1
+
+num=int(input("Enter the no. of sides:"))
+result=int_ang(num)
+print("The interior angle of",num,"sided polygon is:",result)
