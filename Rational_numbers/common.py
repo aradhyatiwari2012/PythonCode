@@ -2,10 +2,9 @@ def hcf(a,b):
     for i in range(max(a, b), 1 + (a * b)):
          if i % a == i % b == 0:
              return i
-# use this after to make this function work:
+#to make this work use:
 #c=hcf(a,b)
 #hcf12=(a*b)//c
-             
 
 
 def lcm(a,b):
@@ -18,7 +17,8 @@ def fraction(variable1):
     fraction=variable1.split("/")
     return(fraction)
 
-def addition(number1,number2): #use import common first
+#use import common function for both addition and subtaction
+def addition(number1,number2):
     den_1=int(common.fraction(number1)[1])
     den_2=int(common.fraction(number2)[1])
 
@@ -37,7 +37,7 @@ def addition(number1,number2): #use import common first
     r1=print(sum_num,"/",lcm_no)
     return (r1)
 
-def subtraction(numb_1,numb_2): #use import common first
+def subtraction(numb_1,numb_2):
     num_1=int(common.fraction(numb_1)[0])
     num_2=int(common.fraction(numb_2)[0])
 
@@ -59,3 +59,17 @@ def subtraction(numb_1,numb_2): #use import common first
 def additive(variable1):
     additive=variable1 * -1
     return additive
+
+
+def p_f(n):
+    factors = []
+    i = 2  
+    while i * i <= n:
+        while n % i == 0:
+            factors.append(i)
+            n //= i
+        i += 1
+    if n > 1:
+        factors.append(n)  
+    return factors
+
