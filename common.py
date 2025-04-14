@@ -61,7 +61,7 @@ def additive(variable1):
     return additive
 
 
-def p_f(n): #Prime factorisation
+def p_f(n):
     factors = []
     i = 2  
     while i * i <= n:
@@ -72,3 +72,11 @@ def p_f(n): #Prime factorisation
     if n > 1:
         factors.append(n)  
     return factors
+
+def ascend(num): #ascending order
+    a = num.split(",")
+    num1 = [int(x) for x in a]
+    num1.sort()
+
+    return num1
+
